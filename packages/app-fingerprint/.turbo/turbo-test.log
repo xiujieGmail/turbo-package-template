@@ -1,0 +1,120 @@
+
+> @pplingo/app-fingerprint@0.1.0 test /Volumes/F/work/lingoace/@pplingo/packages/app-fingerprint
+> vitest run
+
+[33mThe CJS build of Vite's Node API is deprecated. See https://vite.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+
+[7m[1m[36m RUN [39m[22m[27m [36mv1.6.0[39m [90m/Volumes/F/work/lingoace/@pplingo/packages/app-fingerprint[39m
+
+[?25l [32m✓[39m [2msrc/__tests__/[22mvalidation[2m.test.ts[22m[2m (3)[22m
+[?25l[?25l[?25l[2K[1A[2K[G [32m✓[39m [2msrc/__tests__/[22mvalidation[2m.test.ts[22m[2m (3)[22m
+ [90m·[39m [2msrc/__tests__/[22msdk[2m.test.ts[22m[2m (6)[22m
+[?25l[2K[1A[2K[1A[2K[G[90mstderr[2m | src/__tests__/sdk.test.ts[2m > [22m[2mSDK[2m > [22m[2mget user id[22m[39m
+Error: Not implemented: HTMLCanvasElement.prototype.getContext (without installing the canvas npm package)
+    at module.exports (/Volumes/F/work/lingoace/@pplingo/node_modules/.pnpm/jsdom@25.0.1/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)
+    at HTMLCanvasElementImpl.getContext (/Volumes/F/work/lingoace/@pplingo/node_modules/.pnpm/jsdom@25.0.1/node_modules/jsdom/lib/jsdom/living/nodes/HTMLCanvasElement-impl.js:42:5)
+    at HTMLCanvasElement.getContext (/Volumes/F/work/lingoace/@pplingo/node_modules/.pnpm/jsdom@25.0.1/node_modules/jsdom/lib/jsdom/living/generated/HTMLCanvasElement.js:131:58)
+    at isCanvasSupported (/Volumes/F/work/lingoace/@pplingo/node_modules/.pnpm/fingerprintjs2@2.1.4/node_modules/fingerprintjs2/fingerprint2.js:1262:39)
+    at Object.canvasKey [as getData] (/Volumes/F/work/lingoace/@pplingo/node_modules/.pnpm/fingerprintjs2@2.1.4/node_modules/fingerprintjs2/fingerprint2.js:487:9)
+    at chainComponents (/Volumes/F/work/lingoace/@pplingo/node_modules/.pnpm/fingerprintjs2@2.1.4/node_modules/fingerprintjs2/fingerprint2.js:1408:19)
+    at /Volumes/F/work/lingoace/@pplingo/node_modules/.pnpm/fingerprintjs2@2.1.4/node_modules/fingerprintjs2/fingerprint2.js:1410:11
+    at Object.pluginsComponent [as getData] (/Volumes/F/work/lingoace/@pplingo/node_modules/.pnpm/fingerprintjs2@2.1.4/node_modules/fingerprintjs2/fingerprint2.js:735:7)
+    at chainComponents (/Volumes/F/work/lingoace/@pplingo/node_modules/.pnpm/fingerprintjs2@2.1.4/node_modules/fingerprintjs2/fingerprint2.js:1408:19)
+    at chainComponents (/Volumes/F/work/lingoace/@pplingo/node_modules/.pnpm/fingerprintjs2@2.1.4/node_modules/fingerprintjs2/fingerprint2.js:1395:9) [90mundefined[39m
+Error: Not implemented: HTMLCanvasElement.prototype.getContext (without installing the canvas npm package)
+    at module.exports (/Volumes/F/work/lingoace/@pplingo/node_modules/.pnpm/jsdom@25.0.1/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)
+    at HTMLCanvasElementImpl.getContext (/Volumes/F/work/lingoace/@pplingo/node_modules/.pnpm/jsdom@25.0.1/node_modules/jsdom/lib/jsdom/living/nodes/HTMLCanvasElement-impl.js:42:5)
+    at HTMLCanvasElement.getContext (/Volumes/F/work/lingoace/@pplingo/node_modules/.pnpm/jsdom@25.0.1/node_modules/jsdom/lib/jsdom/living/generated/HTMLCanvasElement.js:131:58)
+    at isCanvasSupported (/Volumes/F/work/lingoace/@pplingo/node_modules/.pnpm/fingerprintjs2@2.1.4/node_modules/fingerprintjs2/fingerprint2.js:1262:39)
+    at isWebGlSupported (/Volumes/F/work/lingoace/@pplingo/node_modules/.pnpm/fingerprintjs2@2.1.4/node_modules/fingerprintjs2/fingerprint2.js:1266:10)
+    at Object.webglKey [as getData] (/Volumes/F/work/lingoace/@pplingo/node_modules/.pnpm/fingerprintjs2@2.1.4/node_modules/fingerprintjs2/fingerprint2.js:494:9)
+    at chainComponents (/Volumes/F/work/lingoace/@pplingo/node_modules/.pnpm/fingerprintjs2@2.1.4/node_modules/fingerprintjs2/fingerprint2.js:1408:19)
+    at /Volumes/F/work/lingoace/@pplingo/node_modules/.pnpm/fingerprintjs2@2.1.4/node_modules/fingerprintjs2/fingerprint2.js:1410:11
+    at Object.canvasKey [as getData] (/Volumes/F/work/lingoace/@pplingo/node_modules/.pnpm/fingerprintjs2@2.1.4/node_modules/fingerprintjs2/fingerprint2.js:491:5)
+    at chainComponents (/Volumes/F/work/lingoace/@pplingo/node_modules/.pnpm/fingerprintjs2@2.1.4/node_modules/fingerprintjs2/fingerprint2.js:1408:19) [90mundefined[39m
+Error: Not implemented: HTMLCanvasElement.prototype.getContext (without installing the canvas npm package)
+    at module.exports (/Volumes/F/work/lingoace/@pplingo/node_modules/.pnpm/jsdom@25.0.1/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)
+    at HTMLCanvasElementImpl.getContext (/Volumes/F/work/lingoace/@pplingo/node_modules/.pnpm/jsdom@25.0.1/node_modules/jsdom/lib/jsdom/living/nodes/HTMLCanvasElement-impl.js:42:5)
+    at HTMLCanvasElement.getContext (/Volumes/F/work/lingoace/@pplingo/node_modules/.pnpm/jsdom@25.0.1/node_modules/jsdom/lib/jsdom/living/generated/HTMLCanvasElement.js:131:58)
+    at isCanvasSupported (/Volumes/F/work/lingoace/@pplingo/node_modules/.pnpm/fingerprintjs2@2.1.4/node_modules/fingerprintjs2/fingerprint2.js:1262:39)
+    at isWebGlSupported (/Volumes/F/work/lingoace/@pplingo/node_modules/.pnpm/fingerprintjs2@2.1.4/node_modules/fingerprintjs2/fingerprint2.js:1266:10)
+    at Object.webglVendorAndRendererKey [as getData] (/Volumes/F/work/lingoace/@pplingo/node_modules/.pnpm/fingerprintjs2@2.1.4/node_modules/fingerprintjs2/fingerprint2.js:501:9)
+    at chainComponents (/Volumes/F/work/lingoace/@pplingo/node_modules/.pnpm/fingerprintjs2@2.1.4/node_modules/fingerprintjs2/fingerprint2.js:1408:19)
+    at /Volumes/F/work/lingoace/@pplingo/node_modules/.pnpm/fingerprintjs2@2.1.4/node_modules/fingerprintjs2/fingerprint2.js:1410:11
+    at Object.webglKey [as getData] (/Volumes/F/work/lingoace/@pplingo/node_modules/.pnpm/fingerprintjs2@2.1.4/node_modules/fingerprintjs2/fingerprint2.js:498:5)
+    at chainComponents (/Volumes/F/work/lingoace/@pplingo/node_modules/.pnpm/fingerprintjs2@2.1.4/node_modules/fingerprintjs2/fingerprint2.js:1408:19) [90mundefined[39m
+
+[?25l [32m✓[39m [2msrc/__tests__/[22mvalidation[2m.test.ts[22m[2m (3)[22m
+ [33m❯[39m [2msrc/__tests__/[22msdk[2m.test.ts[22m[2m (6)[22m
+   [33m❯[39m SDK[2m (6)[22m
+     [32m✓[39m should initialize with config
+     [32m✓[39m should override default config
+     [32m✓[39m get user id 32
+     [32m✓[39m get user id 16
+     [33m⠙[39m get user id
+     [90m·[39m Test if UserId is equal
+[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G [32m✓[39m [2msrc/__tests__/[22mvalidation[2m.test.ts[22m[2m (3)[22m
+ [33m❯[39m [2msrc/__tests__/[22msdk[2m.test.ts[22m[2m (6)[22m
+   [33m❯[39m SDK[2m (6)[22m
+     [32m✓[39m should initialize with config
+     [32m✓[39m should override default config
+     [32m✓[39m get user id 32
+     [32m✓[39m get user id 16
+     [33m⠹[39m get user id
+     [90m·[39m Test if UserId is equal
+[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G [32m✓[39m [2msrc/__tests__/[22mvalidation[2m.test.ts[22m[2m (3)[22m
+ [33m❯[39m [2msrc/__tests__/[22msdk[2m.test.ts[22m[2m (6)[22m
+   [33m❯[39m SDK[2m (6)[22m
+     [32m✓[39m should initialize with config
+     [32m✓[39m should override default config
+     [32m✓[39m get user id 32
+     [32m✓[39m get user id 16
+     [33m⠸[39m get user id
+     [90m·[39m Test if UserId is equal
+[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G [32m✓[39m [2msrc/__tests__/[22mvalidation[2m.test.ts[22m[2m (3)[22m
+ [33m❯[39m [2msrc/__tests__/[22msdk[2m.test.ts[22m[2m (6)[22m
+   [33m❯[39m SDK[2m (6)[22m
+     [32m✓[39m should initialize with config
+     [32m✓[39m should override default config
+     [32m✓[39m get user id 32
+     [32m✓[39m get user id 16
+     [33m⠼[39m get user id
+     [90m·[39m Test if UserId is equal
+[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G [32m✓[39m [2msrc/__tests__/[22mvalidation[2m.test.ts[22m[2m (3)[22m
+ [33m❯[39m [2msrc/__tests__/[22msdk[2m.test.ts[22m[2m (6)[22m
+   [33m❯[39m SDK[2m (6)[22m
+     [32m✓[39m should initialize with config
+     [32m✓[39m should override default config
+     [32m✓[39m get user id 32
+     [32m✓[39m get user id 16
+     [33m⠴[39m get user id
+     [90m·[39m Test if UserId is equal
+[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G [32m✓[39m [2msrc/__tests__/[22mvalidation[2m.test.ts[22m[2m (3)[22m
+ [33m❯[39m [2msrc/__tests__/[22msdk[2m.test.ts[22m[2m (6)[22m
+   [33m❯[39m SDK[2m (6)[22m
+     [32m✓[39m should initialize with config
+     [32m✓[39m should override default config
+     [32m✓[39m get user id 32
+     [32m✓[39m get user id 16
+     [33m⠦[39m get user id
+     [90m·[39m Test if UserId is equal
+[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G [32m✓[39m [2msrc/__tests__/[22mvalidation[2m.test.ts[22m[2m (3)[22m
+ [33m❯[39m [2msrc/__tests__/[22msdk[2m.test.ts[22m[2m (6)[22m
+   [33m❯[39m SDK[2m (6)[22m
+     [32m✓[39m should initialize with config
+     [32m✓[39m should override default config
+     [32m✓[39m get user id 32
+     [32m✓[39m get user id 16
+     [33m⠧[39m get user id
+     [90m·[39m Test if UserId is equal
+[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G [32m✓[39m [2msrc/__tests__/[22mvalidation[2m.test.ts[22m[2m (3)[22m
+ [32m✓[39m [2msrc/__tests__/[22msdk[2m.test.ts[22m[2m (6)[22m
+[2K[1A[2K[1A[2K[G [32m✓[39m [2msrc/__tests__/[22mvalidation[2m.test.ts[22m[2m (3)[22m
+ [32m✓[39m [2msrc/__tests__/[22msdk[2m.test.ts[22m[2m (6)[22m
+
+[2m Test Files [22m [1m[32m2 passed[39m[22m[90m (2)[39m
+[2m      Tests [22m [1m[32m9 passed[39m[22m[90m (9)[39m
+[2m   Start at [22m 16:37:21
+[2m   Duration [22m 1.91s[2m (transform 117ms, setup 1ms, collect 144ms, tests 154ms, environment 1.61s, prepare 1.11s)[22m
+
+[?25h[?25h
